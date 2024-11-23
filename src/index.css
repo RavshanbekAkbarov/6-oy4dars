@@ -37,22 +37,36 @@ nav a {
   margin-top: 27px;
   cursor: pointer;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.footer-image {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-image img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
 .footer p {
   color: #21243d;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
+  margin-top: 15px;
 }
-.footer-image {
-  gap: 35px;
-  
-}
-.footer-image img {
-  width: 30px;
-  height: 30px;
-  margin-left: 25px;
-  cursor: pointer;
-}
+
 .active {
   text-decoration: underline;
 }
@@ -154,7 +168,7 @@ nav a {
 
 .years {
   display: flex;
-  gap: 50px;
+  gap: 25px;
 }
 .years h4 {
   font-size: 18px;
@@ -163,7 +177,7 @@ nav a {
 }
 
 /* Works */
-.Works {
+.work {
   color: #21243d;
   margin-left: 108px;
   margin-bottom: 85px;
@@ -195,25 +209,96 @@ hr {
   display: flex;
   gap: 26px;
 }
-.Works h2 {
+.work h2 {
   font-size: 30px;
   font-weight: 700;
   margin-top: -10px;
   margin-bottom: 0px;
 }
-.Works p {
+.work p {
   font-size: 16px;
   font-weight: 400;
   width: 534px;
   margin-top: -10px;
 }
-.Works h3 {
+.work h3 {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 18px;
   color: #8695a4;
 }
-.Works h4 {
+.work h4 {
   font-size: 18px;
   font-weight: 900;
+  background-color: #21243d;
+  color: #ffffff;
+  border-radius: 60%;
+  padding: 0 7px 0 7px;
+}
+
+/* Blok Boshlandi */
+.blog h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 55px;
+  color: #21243d;
+}
+.UI {
+  color: #21243d;
+}
+
+.UI h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.UI h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+}
+.blok-year {
+  display: flex;
+  gap: 25px;
+}
+.blog-h4 h4 {
+  color: #21243d;
+}
+.chiziqcha {
+  margin-top: 30px;
+  width: 1px;
+  height: 21px;
+  background-color: #000000;
+}
+.UI p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 582px;
+}
+.hr-blog {
+  width: 681px;
+  height: 1px;
+  border: 1px;
+}
+
+/* Work qism */
+.work {
+  color: #21243d;
+}
+.work h1 {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.work h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+.hr-work {
+  width: 781px;
+  height: 1px;
+  border: 1px;
+  margin-bottom: 45px;
 }

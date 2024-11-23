@@ -28,6 +28,7 @@ function Home() {
               <h2>Making a design system from scratch</h2>
               <div className="years">
                 <h4>12 Feb 2020</h4>
+                <div className="chiziqcha"></div>
                 <h4>Design, Pattern</h4>
               </div>
               <p>
@@ -40,6 +41,7 @@ function Home() {
               <h2>Creating pixel perfect icons in Figma</h2>
               <div className="years">
                 <h4>12 Feb 2020</h4>
+                <div className="chiziqcha"></div>
                 <h4>Figma, Icon Design</h4>
               </div>
               <p>
@@ -51,7 +53,7 @@ function Home() {
           </div>
         </div>
         {/* Works */}
-        <div className="Works">
+        <div className="work">
           <h3>Featured works</h3>
           <div className="Dashboard">
             <div className="works-img">
