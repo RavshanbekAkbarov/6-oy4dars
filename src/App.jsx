@@ -1,10 +1,13 @@
 //rrd
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+//component
+import Navbar from "./component/Navbar";
 
 //Pages
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import About from "./pages/About";
+import Works from "./pages/Works";
 
 //layouts
 import MainLayout from "./layouts/MainLayout";
@@ -16,21 +19,25 @@ function App() {
       element: <MainLayout />,
       children: [
         {
-          index:true,
+          path: "home",
           element: <Home />,
         },
         {
-          path: "/about",
-          element: <About />,
+          path: "works",
+          element: <Works />,
         },
         {
-          path: "/contact",
+          path: "blog",
+          element: <Blog />,
+        },
+        {
+          path: "contact",
           element: <Contact />,
         },
       ],
     },
   ]);
-  return <RouterProvider router={routes}/>
+  return <RouterProvider router={routes} />;
 }
 
 export default App;
